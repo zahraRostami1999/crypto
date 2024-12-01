@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
+import UserIcon from "../assets/user.png"
 
 const LoginRegisterBtn = () => {
     return (
         <>
-            <div className="w-full flex justify-around">
-                <button className="bg-orange-500"><Link to="/register">Register</Link></button>
-                <button className="bg-gray-600"><Link to="/login">Login</Link></button>
+            <div className="w-1/5 flex justify-around">
+                <Link to="/register"><img src={UserIcon} alt="Register" /></Link>
             </div>
         </>
     );
