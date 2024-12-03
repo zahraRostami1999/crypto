@@ -4,7 +4,7 @@ import Banner from "../components/banner/Banner";
 const HomePage = () => {
     return (
         <>
-            <div className="h-full">HomePage
+            <div className="h-full">
                 <div className="h-screen">
                     <Banner />
                 </div>
