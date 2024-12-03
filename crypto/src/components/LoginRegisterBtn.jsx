@@ -4,8 +4,8 @@ import UserIcon from "../assets/user.png"
 const LoginRegisterBtn = () => {
     return (
         <>
-            <div className="w-1/5 flex justify-around">
-                <Link to="/register"><img src={UserIcon} alt="Register" /></Link>
+            <div className="w-full flex justify-around">
+                <Link to="/register">👤</Link>
             </div>
         </>
     );
