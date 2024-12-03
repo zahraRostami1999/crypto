@@ -8,7 +8,7 @@ import BasicSelect from "../components/USDSelect";
 const Header = () => {
     return (
         <>
-            <div className="w-full bg-red-600">
+            <div className="w-full bg-black">
                 <div className="mx-10 p-2 flex justify-between items-center">
                     <div className="w-1/2 flex justify-between items-center">
                         <div className="w-1/3"><Logo /></div>
