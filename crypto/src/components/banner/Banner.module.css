@@ -1,0 +1,6 @@
+.conatainer{
+    height: 60%;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/banner2.jpg');
+}
